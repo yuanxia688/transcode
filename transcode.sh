@@ -1,5 +1,7 @@
 #!/bin/bash
 
+transcode $1
+
 transcode(){
     Path_2=$1
 

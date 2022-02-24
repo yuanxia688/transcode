@@ -36,7 +36,7 @@ do
 		fi
 	fi
 	echo -n "$IFS" | hexdump
-	transcode() ${fileDirname}/${fileBasenameNoExtension}
+	transcode ${fileDirname}/${fileBasenameNoExtension}
 	echo -n "$IFS" | hexdump
 done
 IFS=${SAVEIFS}

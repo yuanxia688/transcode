@@ -30,7 +30,7 @@ do
         echo "${file_2} 转码完成"
         echo -n "$IFS" | hexdump
 
-        if test -e "${file_2Dirname}/${file_2BasenameNoExtension}.mkv"   # 同上，要一起改后缀
+        if test -e "${file_2Dirname}/${file_2BasenameNoExtension}.mkv"   # 同上，同步改后缀
         then 
             rm -rf "${file_2}"
                 echo "已删除原视频"
